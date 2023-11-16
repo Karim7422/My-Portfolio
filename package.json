@@ -2,16 +2,16 @@
   "name": "aos",
   "version": "2.3.2",
   "description": "Animate on scroll library",
-  "homepage": "https://karim7422.github.io/My-Portfolio/",
+  "homepage": "https://michalsnik.github.io/aos/",
   "author": "Michał Sajnóg <michal.sajnog@hotmail.com>",
   "license": "MIT",
   "main": "dist/aos.js",
   "repository": {
     "type": "git",
-    "url": "https://karim7422.github.io/My-Portfolio/"
+    "url": "https://github.com/michalsnik/aos.git"
   },
   "bugs": {
-    "url": "https://karim7422.github.io/My-Portfolio/"
+    "url": "https://github.com/michalsnik/aos/issues"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
