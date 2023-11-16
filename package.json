@@ -8,10 +8,10 @@
   "main": "dist/aos.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/michalsnik/aos.git"
+    "url": "https://karim7422.github.io/My-Portfolio/"
   },
   "bugs": {
-    "url": "https://github.com/michalsnik/aos/issues"
+    "url": "https://karim7422.github.io/My-Portfolio/"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
