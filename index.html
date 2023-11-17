@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <!-- !Animate On Scroll Library -->
+    <!-- !AOS Animation Library -->
     <link rel="stylesheet" href="./dist/aos.css">
 
 </head>
 
 <body>
+    <i class="fa-solid fa-chevron-up"></i>
     <!-- ! Header Start -->
     <header>
         <nav class="navbar main-bg fixed-top">
@@ -43,16 +44,13 @@
                                     <a class="nav-link text-gray active" aria-current="page" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-gray" href="#">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-gray" href="#">Education</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-gray" href="#">Services</a>
+                                    <a class="nav-link text-gray" href="#education">Education</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-gray" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-gray" href="#portfolio">Portfolio</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,7 +60,6 @@
         </nav>
     </header>
     <!-- ! Header End -->
-
     <!-- ! Main Start -->
     <main class="container vh-100 d-flex flex-column justify-content-center align-items-center">
         <div class="text-center d-flex flex-column">
@@ -92,9 +89,20 @@
         </a>
     </main>
     <!-- ! Main End -->
+    <!-- !Education Start -->
+    <section id="education" class="container my-5">
+        <h2 class="section-title">Education</h2>
+        <ul class="mt-3 mx-4">
+            <li class="my-1">- Bachelor Of Computers And Information Technology</li>
+            <li class="my-1">- Route Academy: Frontend Development Diploma (React.JS)</li>
+            <li class="my-1">- EGFWD: Web Development Challenger Track</li>
+            <li class="my-1">- Mahara Tech: Frontend Development (Basics)</li>
+        </ul>
+    </section>
+    <!-- !Education End -->
     <!-- ! Skills Start -->
-    <section id="skills" class="container">
-        <h2 class="section-title text-center display-3 fw-bolder">skills</h2>
+    <section id="skills" class="container my-5">
+        <h2 class="section-title">Skills</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
             <div class="col my-5 d-flex justify-content-center">
                 <div data-aos="flip-left" data-aos-duration="300"
@@ -177,13 +185,341 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!-- ! Skills End -->
+    <!-- ! Portfolio Start -->
+    <section id="portfolio" class="container my-5">
+        <h2 class="section-title">Portfolio</h2>
+        <ul class="nav nav-tabs d-flex justify-content-center  my-5 border-0" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active border-0 text-black fw-bolder p-0 ms-3" id="home-tab"
+                    data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab"
+                    aria-controls="home-tab-pane" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link border-0 text-black fw-bolder p-0 ms-3" id="profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#nativ-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                    aria-selected="false">Bootstrap</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link border-0 text-black fw-bolder p-0 ms-3" id="contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#javascript-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                    aria-selected="false">JavaScript</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link border-0 text-black fw-bolder p-0 ms-3" id="contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#apis-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                    aria-selected="false">APIs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link border-0 text-black fw-bolder p-0 ms-3" id="contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#react-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                    aria-selected="false">React.JS</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link border-0 text-black fw-bolder p-0 ms-3" id="contact-tab" data-bs-toggle="tab"
+                    data-bs-target="#challenges-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                    aria-selected="false">Challenges</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 justify-content-center">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Daniels/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img1.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/DevFolio/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img2.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/NEBOSH/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img3.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Advices-Generator/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img4.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Bookmark/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img5.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/QR-Code-Component/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img6.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Weather-App/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img7.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Intro-Section/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img8.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Article-Preview/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img9.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Fresh-Cart/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img10.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Rating-Component/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img11.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nativ-tab-pane" role="tabpanel" aria-labelledby="nativ-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3 ">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Daniels/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img1.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/DevFolio/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img2.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/NEBOSH/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img3.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Intro-Section/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img8.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="react-tab-pane" role="tabpanel" aria-labelledby="react-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Fresh-Cart/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img10.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="challenges-tab-pane" role="tabpanel" aria-labelledby="challenges-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Advices-Generator/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img4.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/QR-Code-Component/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img6.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Intro-Section/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img8.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Article-Preview/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img9.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Rating-Component/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img11.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="javascript-tab-pane" role="tabpanel" aria-labelledby="javascript-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Advices-Generator/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img4.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Bookmark/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img5.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Weather-App/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img7.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Rating-Component/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img11.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="apis-tab-pane" role="tabpanel" aria-labelledby="apis-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3 ">
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Advices-Generator/" target="_blank"
+                                    class="overlay">
+                                </a>
+                                <img src="./images/img4.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Weather-App/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img7.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col overflow-hidden">
+                        <div class="card border-0 bg-transparent">
+                            <div title="Live Demo On Github" class="img">
+                                <a href="https://karim7422.github.io/Fresh-Cart/" target="_blank" class="overlay">
+                                </a>
+                                <img src="./images/img10.jpg" class="w-100 h-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ! Portfolio End -->
+    <!-- !JS Files-->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- ! AOS Animation Library -->
     <script src="./dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
